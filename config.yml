@@ -1,0 +1,20 @@
+title: title of this website
+languageCode: en-us
+titleCaseStyle: none
+capitalizeListTitles: false
+pluralizeListTitles: false
+enableGitInfo: true
+pygmentsUseClasses: true
+uglyURLs: true
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about.html
+      weight: 1
+
+    - identifier: posts
+      name: posts
+      url: /posts.html
+      weight: 2
