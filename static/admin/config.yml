@@ -4,8 +4,9 @@ backend:
   name: github
   repo: booklice/hugo_with_cms
   branch: master
-  auth_scope: repo
-  open_authoring: true
+  api_root: https://api.github.com
+  auth_endpoint: auth
+  base_url: https://api.netlify.com
 
 media_folder: "static/assets" # Folder where user uploaded files should go
 public_folder: "assets"
