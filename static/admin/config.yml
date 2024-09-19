@@ -4,6 +4,9 @@ backend:
   name: github
   repo: booklice/hugo_with_cms
   branch: master
+  auth_scope: repo
+  open_authoring: true
+
 media_folder: "static/assets" # Folder where user uploaded files should go
 public_folder: "assets"
 collections:
