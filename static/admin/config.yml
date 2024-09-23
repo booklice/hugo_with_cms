@@ -4,8 +4,7 @@ backend:
   name: github
   repo: booklice/hugo_with_cms
   branch: master
-  api_root: https://github-oauth-pi.vercel.app/
-  auth_endpoint: auth
+  base_url: https://github-oauth-pi.vercel.app
 
 media_folder: "static/assets" # Folder where user uploaded files should go
 public_folder: "assets"
