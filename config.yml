@@ -5,6 +5,7 @@ capitalizeListTitles: false
 pluralizeListTitles: false
 enableGitInfo: true
 pygmentsUseClasses: true
+disableHugoGeneratorInject: true
 uglyURLs: true
 
 menu:
