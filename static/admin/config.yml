@@ -8,6 +8,7 @@ backend:
 
 media_folder: "static/assets" # Folder where user uploaded files should go
 public_folder: "/assets"
+
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/post
     label: "Posts" # Used in the UI
