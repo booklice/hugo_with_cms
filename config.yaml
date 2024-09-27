@@ -10,6 +10,8 @@ disableHugoGeneratorInject: true
 relativeURLs: false
 # canonifyURLs: true
 
+baseURL: https://booklice.github.io/hugo_with_cms/
+
 date:
   locale: ko_KR
 
