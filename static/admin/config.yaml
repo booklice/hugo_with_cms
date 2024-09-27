@@ -4,7 +4,7 @@ backend:
   name: github
   repo: booklice/hugo_with_cms
   branch: master
-  base_url: https://github-oauth-pi.vercel.app
+  base_url: https://github-oauth-pi.vercel.app # oauth server url
 
 media_folder: "static/assets"
 public_folder: "/assets"
