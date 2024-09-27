@@ -7,6 +7,9 @@ enableGitInfo: true
 pygmentsUseClasses: true
 disableHugoGeneratorInject: true
 
+relativeURLs: false
+# canonifyURLs: true
+
 date:
   locale: ko_KR
 
