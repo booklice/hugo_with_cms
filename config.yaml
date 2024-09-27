@@ -7,20 +7,17 @@ enableGitInfo: true
 pygmentsUseClasses: true
 disableHugoGeneratorInject: true
 
-relativeURLs: false
-# canonifyURLs: true
-
-baseURL: https://booklice.github.io/hugo_with_cms/
-
 date:
   locale: ko_KR
 
 uglyURLs: true
+canonifyURLs: true
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+
   highlight:
     guessSyntax: true
     lineNumbersInTable: false
