@@ -6,7 +6,7 @@ backend:
   branch: master
   base_url: https://github-oauth-pi.vercel.app
 
-media_folder: "static/assets" # Folder where user uploaded files should go
+media_folder: "static/assets"
 public_folder: "/assets"
 
 collections:
@@ -19,5 +19,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Media Files", name: "image", widget: "file", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
 logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png
-logo_link: https://github.com/booklice/hugo_with_cms
+logo_link: https://booklice.github.io/hugo_with_cms
